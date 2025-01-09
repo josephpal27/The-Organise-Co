@@ -1,0 +1,498 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* font-family: "Montserrat", sans-serif; */
+}
+
+/* Nav Section Starts Here */
+nav {
+  /* overflow: hidden; */
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+.nav-content {
+  background-color: #fff(222, 222, 222);
+  padding: 1rem 0 0 0;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+.nav-content ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 2rem;
+}
+.nav-content ul a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  transition: all 0.1s ease;
+}
+.nav-content ul a:hover{
+  border-bottom: 3px solid #303030;
+  padding-bottom: 0.2rem;
+}
+.nav-content .nav-left {
+  width: 25%;
+}
+.nav-content .nav-left img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+.nav-content .nav-left h4 {
+  font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-content .nav-center {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-content .nav-right {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+.nav-content .nav-right i {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.nav-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 0;
+  /* height: auto; */
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.nav-search form {
+  position: relative;
+}
+.nav-search input {
+  width: 30vw;
+  border: none;
+  outline: 2px solid #000;
+  padding: 1rem 1rem;
+  margin-bottom: 0.3rem;
+}
+.nav-search #search-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  position: absolute;
+  right: 1rem;
+  top: 25%;
+}
+.nav-search .fa-xmark {
+  margin-left: 0.8rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+/* Nav Section Ends Here */
+
+/* Banner 1 Starts Here */
+.banner {
+  padding: 4rem 2rem;
+  max-width: 1500px;
+  margin: 0 auto;
+  /* background-color: rgb(230, 230, 230); */
+  overflow: hidden;
+  border-bottom: 1px solid #000;
+}
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+}
+.banner .banner-text {
+  width: 50%;
+}
+.banner .banner-text h1 {
+  font-size: 5.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+}
+.banner .banner-text h2 {
+  font-size: 7rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+.banner .banner-text p {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin-top: 3rem;
+}
+.banner .banner-text button {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-weight: 700;
+}
+
+.banner .banner-image {
+  width: 49%;
+}
+.banner .banner-image .img-div {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.banner .banner-image img {
+  width: 80%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* Banner 1 Ends Here */
+
+/* Banner 2 Starts Here */
+#banner-2 .banner .banner-image .img-div {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+#banner-2 .banner .banner-head .line {
+  width: 2.5rem;
+  margin-bottom: 1rem;
+  height: 2px;
+  background-color: rgb(232, 97, 1);
+}
+#banner-2 .banner .banner-head h5 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 2rem;
+}
+#banner-2 .banner .banner-text h2 {
+  font-size: 5rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+#banner-2 .banner .banner-text button {
+  border: none;
+  outline: none;
+  background-color: #000;
+  color: #fff;
+  padding: 0.7rem 5rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
+}
+/* Banner 2 Ends Here */
+
+/* Banner 3 Starts Here */
+#banner-3 .banner .banner-head .line {
+  width: 2.5rem;
+  margin-bottom: 1rem;
+  height: 2px;
+  background-color: rgb(232, 97, 1);
+}
+#banner-3 .banner .banner-head h5 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 2rem;
+}
+#banner-3 .banner .banner-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#banner-3 .banner .banner-text h1 {
+  font-size: 4rem;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+#banner-3 .banner .banner-text h2 {
+  font-size: 3.8rem;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+}
+#banner-3 .banner .banner-text h2 span {
+  font-weight: 500;
+}
+#banner-3 .banner .banner-text p {
+  text-align: center;
+}
+#banner-3 .banner .banner-text button {
+  border: none;
+  outline: none;
+  background-color: #000;
+  color: #fff;
+  padding: 0.7rem 5rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
+}
+/* Banner 3 Ends Here */
+
+/* Banner 4 Starts Here */
+#banner-4 .banner .banner-head .line {
+  width: 2.5rem;
+  margin-bottom: 1rem;
+  height: 2px;
+  background-color: rgb(232, 97, 1);
+}
+#banner-4 .banner .banner-head h5 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 2rem;
+}
+#banner-4 .banner .banner-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#banner-4 .banner .banner-text h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+#banner-4 .banner .banner-text h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+#banner-4 .banner .banner-text p {
+  margin-top: 0;
+  text-align: center;
+}
+#banner-4 .banner .banner-text button {
+  border: none;
+  outline: none;
+  background-color: #000;
+  color: #fff;
+  padding: 0.7rem 5rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
+}
+/* Banner 4 Ends Here */
+
+/* Banner 5 Starts Here */
+#banner-5 .banner .banner-head .line {
+  width: 2.5rem;
+  margin-bottom: 1rem;
+  height: 2px;
+  background-color: rgb(232, 97, 1);
+}
+#banner-5 .banner .banner-head h5 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 2rem;
+}
+#banner-5 .banner .banner-text h1 {
+  font-size: 5rem;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 3rem;
+}
+#banner-5 .banner .banner-text span {
+  font-weight: 500;
+}
+#banner-5 .banner .banner-text p {
+  margin-top: 1rem;
+}
+#banner-5 .banner .banner-text #banner-5-para {
+  font-weight: 700;
+}
+#banner-5 .banner .banner-text button {
+  margin-top: 2rem;
+}
+/* Banner 5 Ends Here */
+
+/* Banner 6 Starts Here */
+#banner-6 .banner .banner-head .line {
+  width: 2.5rem;
+  margin-bottom: 1rem;
+  height: 2px;
+  background-color: rgb(232, 97, 1);
+}
+#banner-6 .banner .banner-head h5 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 2rem;
+}
+#banner-6 .banner .banner-text h1 {
+  font-weight: 300;
+}
+#banner-6 .banner .banner-text h2 {
+  font-size: 4.5rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+#banner-6 .banner .banner-text p {
+  margin-top: 1rem;
+}
+#banner-6 .banner .banner-text #banner-6-para {
+  font-weight: 700;
+}
+#banner-6 .banner .banner-text button {
+  margin-top: 2rem;
+}
+/* Banner 6 Ends Here */
+
+/* Banner 7 Starts Here */
+#banner-7 .banner .banner-head .line {
+  width: 2.5rem;
+  margin-bottom: 1rem;
+  height: 2px;
+  background-color: rgb(232, 97, 1);
+}
+#banner-7 .banner .banner-head h5 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 2rem;
+}
+
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.carousel .slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.carousel .slide {
+  min-width: 100%;
+  display: flex;
+}
+.carousel .text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.carousel .text h2{
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+.carousel .text p{
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  font-family: "Montserrat", sans-serif;
+  max-width: 70%;
+  text-align: center;
+}
+.carousel .text h5{
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+.carousel .image {
+  width: 50%;
+}
+.carousel .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.carousel .navigation {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+.carousel button {
+  background-color: transparent;
+  color: #838383;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1.7rem;
+  transition: all 0.2s ease;
+}
+.carousel button:hover{
+  color: #000;
+}
+/* Banner 7 Ends Here */
+
+
+/* Banner 8 Starts Here */
+#banner-8 .banner-text h1{
+    font-size: 4rem;
+    font-weight: 300;
+}
+#banner-8 .banner-text h2{
+    font-size: 4rem;
+    font-weight: 500;
+}
+#banner-8 .banner-text button{
+    margin-top: 2rem;
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    padding: 0.7rem 5rem;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+#banner-8 .banner-image img{
+    width: 90%;
+}
+/* Banner 8 Ends Here */
+
+
+/* Footer Starts Here */
+footer{
+    background-color: #eaeaea;
+    margin-top: 2rem;
+}
+.foot-content{
+    background-color: #eaeaea;
+    padding: 2rem 0;
+    max-width: 1500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.foot-content .footer-top{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #000;
+    padding-bottom: 1rem;
+}
+.foot-content .footer-top ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+.foot-content .footer-icon{
+    font-size: 1.4rem;
+    display: flex;
+    gap: 1rem;
+}
+.foot-content .footer-bottom p{
+    text-align: center;
+    margin-top: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+/* Footer Ends Here */
