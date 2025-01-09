@@ -1,24 +1,23 @@
-// Functionality For Nav Search Toggle
 
-let searchBtn = document.querySelector('.fa-magnifying-glass');
-let searchBox = document.querySelector('.nav-search');
-let closeBtn = document.querySelector('.fa-xmark')
+// Functionality For Back to Top Btn
+let backToTopDiv = document.querySelector(".back-to-top");
+let backToTopBtn = document.querySelector(".back-to-top .fa-arrow-up");
 
-searchBtn.addEventListener('click', () => {
-    if (searchBox.style.height == 'auto') {
-        searchBox.style.height = '0';
+backToTopBtn.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+    });
+});
+
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 100) {
+        // Adjust the pixel value as needed
+        backToTopDiv.classList.add("show");
+    } else {
+        backToTopDiv.classList.remove("show");
     }
-    else{
-        searchBox.style.height = 'auto';
-    } 
-})
-
-closeBtn.addEventListener('click', () => {
-    searchBox.style.height = '0';
-})
-
-
-
+});
 // -------------------------------------------------------------------------------------------------------------------------------------------
 
 // Functionality For Slider 
@@ -58,3 +57,6 @@ document.querySelector('.carousel').addEventListener('mouseenter', () => {
 document.querySelector('.carousel').addEventListener('mouseleave', () => {
     slideInterval = setInterval(nextSlide, intervalTime);
 });
+
+
+// ---------------------------------------------------------------------------------------------------------------------------------------

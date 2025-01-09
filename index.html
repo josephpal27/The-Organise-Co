@@ -1,28 +1,34 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home - The Organise Co</title>
+    <title>The Organise Co</title>
     <link rel="shortcut icon" href="assets/images/logo/lsi_logo.png" type="image/x-icon">
     <!-- Bootstrap CSS Link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Link to Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Link to AOS Animations -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Link to Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <!-- CSS Link -->
     <link rel="stylesheet" href="assets/css/style.css">
-  </head>
-  <body>
+</head>
+
+<body>
 
 
     <!-- Nav Section Starts Here -->
-     <nav data-aos="fade-down" data-aos-duration="700">
+    <!-- <nav data-aos="fade-down" data-aos-duration="700">
         <div class="nav-content">
             <div class="nav-left">
                 <ul>
@@ -48,45 +54,88 @@
                     <li><i class="fa-solid fa-cart-shopping"></i></li>
                 </ul>
             </div>
-        </div>
-        <!-- Search Box -->
-        <div class="nav-search">
+        </div> -->
+    <!-- Search Box -->
+    <!-- <div class="nav-search">
             <form action="">
                 <input type="search" placeholder="Search">
                 <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
             <i class="fa-solid fa-xmark"></i>
         </div>
-     </nav>
+     </nav> -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-xl">
+            <!-- Logo Image on the left side -->
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo/logo-2.jpg" alt="Logo" width="160">
+            </a>
+
+            <!-- Toggler button for mobile view -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdowns"
+                aria-controls="navbarDropdowns" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-light"></span>
+            </button>
+
+            <!-- Centered Menu with a Button on the Right -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarDropdowns">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#our-story">Our Story</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#who-we-are">Who We Are</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#our-services">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Our Blogs</a>
+                    </li>
+                </ul>
+                <!-- Button on the Right Side -->
+                <a href="#contact"><button class="contact-btn"><i class="fa-solid fa-phone"></i> Get
+                        Enquiry</button></a>
+            </div>
+        </div>
+    </nav>
     <!-- Nav Section Ends Here -->
 
 
     <!-- Banner 1 Starts Here -->
-     <section id="banner-1">
-        <div class="banner">
+    <section id="banner-1">
+        <div class="banner" id="who-we-are">
             <div class="banner-content">
                 <!-- Content -->
-                 <div class="banner-text">
-                     <h1 data-aos="fade-right" data-aos-duration="1000">YOUR HOME</h1>
-                     <h2 data-aos="fade" data-aos-duration="2000">Organized In Style</h2>
-                     <p>Improving the everyday with a unique blend of form, function, and fun.</p>
-                     <a href=""><button>LEARN MORE</button></a>
-                 </div>
+                <div class="banner-text">
+                    <h3 data-aos="fade-right" data-aos-duration="1000">Welcome to The Organise Co.</h3>
+                    <p data-aos="fade" data-aos-duration="1000">The Organise Co. is your reliable partner for designing
+                        beautifully functional spaces. Operating in Kolkata, India, our organisation offers personal
+                        organising and space consultancy services to clients nationwide.</p>
+                    <p data-aos="fade" data-aos-duration="1000">It's the brainchild of Pragati Agarwala and, through the
+                        initiative, helps create order from chaos, guiding people to live with joy once more in their
+                        neat and organised abode- be it the house, the office, or one's own possessions.</p>
+                    <p data-aos="fade" data-aos-duration="1000">At The Organise Co. we don't just organise the space,
+                        but we create experience that enhances lifestyles.</p>
+                    <!-- <h1 data-aos="fade-right" data-aos-duration="1000">Our Story</h1>
+                     <p data-aos="fade" data-aos-duration="1000">We at The Organise Co. believe clutter-free space will bring clutter out of your head. Founded under the vision to make lives a little easier to handle, The Organise Co. specialises in making living, working and personal spaces gorgeous and beautiful abodes of wonderful order. And our personal organisation solution helps the people in need reclaim their precious time, makes their work get easier and feel less stressed from daily chaos and life's drama.</p> -->
+                </div>
                 <!-- Image -->
-                 <div class="banner-image">
+                <div class="banner-image">
                     <div class="img-div">
                         <img src="assets/images/banner/1.webp" alt="image" data-aos="fade">
                     </div>
-                 </div>
+                </div>
             </div>
+            <img src="assets/images/icons/2.jpg" alt="image" id="icon-1">
         </div>
-     </section>
+    </section>
     <!-- Banner 1 Ends Here -->
 
 
     <!-- Banner 2 Starts Here -->
-     <section id="banner-2">
-        <div class="banner">
+    <section id="banner-2">
+        <div class="banner" id="our-services">
             <div class="banner-head">
                 <div class="line" data-aos="fade-up" data-aos-duration="1000"></div>
                 <h5 data-aos="fade-down" data-aos-duration="1000">JUST LAUNCHED</h5>
@@ -96,25 +145,45 @@
                 <!-- Image -->
                 <div class="banner-image" data-aos="fade" data-aos-duration="600">
                     <div class="img-div">
-                        <img src="assets/images/banner/2.webp" alt="image">
+                        <!-- <img src="assets/images/banner/2.webp" alt="image"> -->
+                        <video src="assets/videos/1.mp4" loop muted autoplay></video>
                     </div>
                 </div>
                 <!-- Content -->
                 <div class="banner-text">
-                    <h1 data-aos="fade-up" data-aos-duration="1000">The Home Edit</h1>
-                    <h2 data-aos="fade" data-aos-duration="1000">Is On YouTube</h2>
-                    <p data-aos="fade" data-aos-duration="1000">Your go-to source for entertaining and informative content designed to help you live a beautiful and happy life! Whether you’re an organizing enthusiast, multitasking mom, or party host that does the most, we’re here to inspire and empower you every step of the way.</p>
-                    <a href=""><button data-aos="flip-up" data-aos-duration="1000">WATCH NOW</button></a>
+                    <h1 data-aos="fade-up" data-aos-duration="1000">Our Services</h1>
+                    <p data-aos="fade" data-aos-duration="1000">We offer a variety of organising solutions designed to
+                        meet your unique needs. Here are just a few examples:</p>
+                    <ol>
+                        <li data-aos="fade" data-aos-duration="1000">
+                            <p>Home Organisation: We help you create spaces that inspire joy and order-from decluttering
+                                your wardrobe to designing an efficient kitchen.</p>
+                        </li>
+                        <li data-aos="fade" data-aos-duration="1000">
+                            <p>Office Space Planning: Maximise efficiency and aesthetic appeal with professionally
+                                organised workspaces.</p>
+                        </li>
+                        <li data-aos="fade" data-aos-duration="1000">
+                            <p>Customized Storage Solutions: Get tailored advice on storage options to optimise your
+                                space.</p>
+                        </li>
+                        <li data-aos="fade" data-aos-duration="1000">
+                            <p>Moving Help: Be it a new home or office, our team will ensure a hassle-free move with
+                                efficient packing and unpacking services.</p>
+                        </li>
+                    </ol>
+                    <!-- <a href=""><button data-aos="flip-up" data-aos-duration="1000">WATCH NOW</button></a> -->
                 </div>
             </div>
+            <img src="assets/images/icons/1.jpg" alt="image" id="icon-2">
         </div>
-     </section>
+    </section>
     <!-- Banner 2 Ends Here -->
 
 
     <!-- Banner 3 Starts Here -->
-     <section id="banner-3">
-        <div class="banner">
+    <section id="banner-3">
+        <div class="banner" id="our-story">
             <div class="banner-head">
                 <div class="line" data-aos="fade-up" data-aos-duration="1000"></div>
                 <h5 data-aos="fade-down" data-aos-duration="1000">NEW</h5>
@@ -123,25 +192,30 @@
             <div class="banner-content">
                 <!-- Content -->
                 <div class="banner-text">
-                    <h1 data-aos="fade-down" data-aos-duration="1000">The Rainbow</h1>
-                    <h2 data-aos="fade" data-aos-duration="1000">Cleanup<span>: A Magical Organizing Adventure</span></h2>
-                    <p data-aos="zoom-in-right" data-aos-duration="1000">Join two best friends on a rainbow-filled organizing adventure! <br> Now available for preorder!</p>
-                    <a href=""><button data-aos="flip-up" data-aos-duration="1000">PREORDER NOW</button></a>
+                    <h1 data-aos="fade-right" data-aos-duration="1000">Our Story</h1>
+                    <p data-aos="fade" data-aos-duration="1000">We at The Organise Co. believe clutter-free space will
+                        bring clutter out of your head. Founded under the vision to make lives a little easier to
+                        handle, The Organise Co. specialises in making living, working and personal spaces gorgeous and
+                        beautiful abodes of wonderful order.</p>
+                    <p data-aos="fade" data-aos-duration="1000">Our personal organisation solution helps the people in
+                        need reclaim their precious time, makes their work get easier and feel less stressed from daily
+                        chaos and life's drama.</p>
                 </div>
                 <!-- Image -->
                 <div class="banner-image">
                     <div class="img-div">
-                        <img src="assets/images/banner/3.webp" alt="image" data-aos="fade" data-aos-duration="1000">
+                        <img src="assets/images/banner/our-story.jpg" alt="image" data-aos="fade" data-aos-duration="1000">
                     </div>
                 </div>
             </div>
+            <img src="assets/images/icons/8.jpg" alt="image" id="icon-3">
         </div>
-     </section>
+    </section>
     <!-- Banner 3 Ends Here -->
 
 
     <!-- Banner 4 Starts Here -->
-     <section id="banner-4">
+    <section id="banner-4">
         <div class="banner">
             <div class="banner-head">
                 <div class="line" data-aos="fade-up" data-aos-duration="1000"></div>
@@ -151,26 +225,44 @@
             <div class="banner-content">
                 <!-- Content -->
                 <div class="banner-text">
-                    <h1 data-aos="fade" data-aos-duration="1000">Double the Fun,</h1>
-                    <h2 data-aos="fade-up" data-aos-duration="1000">Double the Magic</h2>
-                    <p data-aos="fade" data-aos-duration="1000">We are so excited to announce TWO NEW books out in September.</p>
-                    <p data-aos="fade" data-aos-duration="1000">Let's Put That Away and The Home Edit for Teens are now available for preorder!</p>
-                    <a href=""><button data-aos="flip-up" data-aos-duration="1000">PREORDER NOW</button></a>
+                    <h1 data-aos="fade" data-aos-duration="1000">Organise Your Life</h1>
+                    <h2 data-aos="fade-up" data-aos-duration="1000">in Just 5 Steps</h2>
+                    <ol>
+                        <li data-aos="fade" data-aos-duration="1000">
+                            <p><b>Consultation: </b>Book a session with our experts to understand your specific needs.
+                            </p>
+                        </li>
+                        <li data-aos="fade" data-aos-duration="1000">
+                            <p><b>Assessment: </b>We evaluate your space and identify areas that require attention.</p>
+                        </li>
+                        <li data-aos="fade" data-aos-duration="1000">
+                            <p><b>Planning: </b>Get a customised action plan with practical organising solutions.</p>
+                        </li>
+                        <li data-aos="fade" data-aos-duration="1000">
+                            <p><b>Execution: </b>Witness how your space changes with our plan in action, so that
+                                everything will be taken care of.</p>
+                        </li>
+                        <li data-aos="fade" data-aos-duration="1000">
+                            <p><b>Sustainability Tips: </b>Know how to keep the order we created through our
+                                simple-to-follow organising tips.</p>
+                        </li>
+                    </ol>
                 </div>
                 <!-- Image -->
                 <div class="banner-image">
                     <div class="img-div">
-                        <img src="assets/images/banner/4.webp" alt="image" data-aos="fade" data-aos-duration="1000">
+                        <img src="assets/images/banner/organise-your-life.jpg" alt="image" data-aos="fade" data-aos-duration="1000">
                     </div>
                 </div>
             </div>
+            <img src="assets/images/icons/9.jpg" alt="image" id="icon-4">
         </div>
-     </section>
+    </section>
     <!-- Banner 4 Ends Here -->
 
 
     <!-- Banner 5 Starts Here -->
-     <section id="banner-5">
+    <section id="banner-5">
         <div class="banner">
             <div class="banner-head">
                 <div class="line" data-aos="fade-up" data-aos-duration="1000"></div>
@@ -180,25 +272,41 @@
             <div class="banner-content">
                 <!-- Content -->
                 <div class="banner-text">
-                    <h1 data-aos="fade" data-aos-duration="1000">The <span>Campus Edit</span></h1>
-                    <p id="banner-5-para" data-aos="zoom-in-right" data-aos-duration="1000">The Home Edit and American Campus Communities have teamed up to help students thrive where they live!</p>
-                    <p data-aos="zoom-in-right" data-aos-duration="1000">Now American Campus Communities’ residents have access to The Home Edit professional organizing products and services.</p>
-                    <a href=""><button>LEARN MORE</button></a>
+                    <h1 data-aos="fade" data-aos-duration="1000">Recommended Products</h1>
+                    <h2 data-aos="fade-up" data-aos-duration="1000">to Organize Your Space</h2>
+                    <ol>
+                        <li>
+                            <p>Modular Storage Bins: Ideal for organising and classifying daily objects.</p>
+                        </li>
+                        <li>
+                            <p>Label Makers: Give a professional look to your organising system.</p>
+                        </li>
+                        <li>
+                            <p>Drawer Dividers - Maximise your space by keeping everything in place.</p>
+                        </li>
+                        <li>
+                            <p>Hanging Organisers - Free floor space by having versatile hanging solutions.</p>
+                        </li>
+                        <li>
+                            <p>Vacuum Storage Bags - Compact seasonal items and store them neatly.</p>
+                        </li>
+                    </ol>
                 </div>
                 <!-- Image -->
                 <div class="banner-image">
                     <div class="img-div">
-                        <img src="assets/images/banner/5.jpg" alt="image" data-aos="fade" data-aos-duration="1000">
+                        <img src="assets/images/banner/organise-your-space.jpg" alt="image" data-aos="fade" data-aos-duration="1000">
                     </div>
                 </div>
             </div>
+            <img src="assets/images/icons/6.jpg" alt="image" id="icon-5">
         </div>
-     </section>
+    </section>
     <!-- Banner 5 Ends Here -->
 
 
     <!-- Banner 6 Starts Here -->
-     <section id="banner-6">
+    <section id="banner-6">
         <div class="banner">
             <div class="banner-head">
                 <div class="line" data-aos="fade-up" data-aos-duration="1000"></div>
@@ -210,83 +318,103 @@
                 <div class="banner-text">
                     <h1 data-aos="fade" data-aos-duration="1000">From mess</h1>
                     <h2 data-aos="fade" data-aos-duration="1000">to “yes”!</h2>
-                    <p id="banner-6-para" data-aos="zoom-in-right" data-aos-duration="1000">Experience The Home Edit at home!</p>
-                    <p data-aos="zoom-in-right" data-aos-duration="1000">Our professional in-home organizing services are available in 7 markets nationwide, with virtual and travel services upon request. Let us help you transform your space!</p>
+                    <p id="banner-6-para" data-aos="zoom-in-right" data-aos-duration="1000">Experience The Home Edit at
+                        home!</p>
+                    <p data-aos="zoom-in-right" data-aos-duration="1000">Our professional in-home organizing services
+                        are available in 7 markets nationwide, with virtual and travel services upon request. Let us
+                        help you transform your space!</p>
                     <a href=""><button>LEARN MORE</button></a>
                 </div>
                 <!-- Image -->
                 <div class="banner-image">
                     <div class="img-div">
-                        <img src="assets/images/banner/6.webp" alt="image" data-aos="fade" data-aos-duration="1000">
+                        <img src="assets/images/banner/bg.jpg" alt="image" data-aos="fade" data-aos-duration="1000">
                     </div>
                 </div>
             </div>
         </div>
-     </section>
+    </section>
     <!-- Banner 6 Ends Here -->
 
-    
+
     <!-- Banner 7 Starts Here -->
-     <section id="banner-7">
+    <section id="banner-7">
         <div class="banner">
             <div class="banner-head">
                 <div class="line" data-aos="fade-up" data-aos-duration="1000"></div>
                 <h5 data-aos="fade-down" data-aos-duration="1000">FEATURED</h5>
             </div>
 
-                <div class="carousel">
-                    <div class="slides">
-                        <div class="slide">
-                            <div class="text">
-                                <h2>The Home Edit Cleaning Collection</h2>
-                                <p>Learn more about the newest line of smart cleaning solutions at Walmart.</p>
-                                <h5>MEET THE COLLECTION</h5>
-                            </div>
-                            <div class="image">
-                                <img src="assets/images/slider/slide1.webp" alt="Image 1">
-                            </div>
+            <div class="carousel">
+                <div class="slides">
+                    <div class="slide">
+                        <div class="text">
+                            <h2>The Home Edit Cleaning Collection</h2>
+                            <p>Learn more about the newest line of smart cleaning solutions at Walmart.</p>
+                            <h5>MEET THE COLLECTION</h5>
                         </div>
-                        <div class="slide">
-                            <div class="text">
-                                <h2>The Home Edit Cleaning Collection</h2>
-                                <p>Learn more about the newest line of smart cleaning solutions at Walmart.</p>
-                                <h5>MEET THE COLLECTION</h5>
-                            </div>
-                            <div class="image">
-                                <img src="assets/images/slider/slide2.webp" alt="Image 2">
-                            </div>
-                        </div>
-                        <div class="slide">
-                            <div class="text">
-                                <h2>The Home Edit Cleaning Collection</h2>
-                                <p>Learn more about the newest line of smart cleaning solutions at Walmart.</p>
-                                <h5>MEET THE COLLECTION</h5>
-                            </div>
-                            <div class="image">
-                                <img src="assets/images/slider/slide3.webp" alt="Image 3">
-                            </div>
+                        <div class="image">
+                            <img src="assets/images/slider/slide1.webp" alt="Image 1">
                         </div>
                     </div>
-                    <div class="navigation">
-                        <button class="prev"><i class="fa-solid fa-chevron-left"></i></button>
-                        <button class="next"><i class="fa-solid fa-chevron-right"></i></button>
+                    <div class="slide">
+                        <div class="text">
+                            <h2>The Home Edit Cleaning Collection</h2>
+                            <p>Learn more about the newest line of smart cleaning solutions at Walmart.</p>
+                            <h5>MEET THE COLLECTION</h5>
+                        </div>
+                        <div class="image">
+                            <img src="assets/images/slider/slide2.webp" alt="Image 2">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="text">
+                            <h2>The Home Edit Cleaning Collection</h2>
+                            <p>Learn more about the newest line of smart cleaning solutions at Walmart.</p>
+                            <h5>MEET THE COLLECTION</h5>
+                        </div>
+                        <div class="image">
+                            <img src="assets/images/slider/slide3.webp" alt="Image 3">
+                        </div>
                     </div>
                 </div>
+                <div class="navigation">
+                    <button class="prev"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button class="next"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
         </div>
-     </section>
+    </section>
     <!-- Banner 7 Ends Here -->
 
 
     <!-- Banner 8 Starts Here -->
     <section id="banner-8">
-        <div class="banner">
+        <div class="banner" id="contact">
             <div class="banner-content">
                 <!-- Content -->
                 <div class="banner-text">
-                    <h1 data-aos="fade-down" data-aos-duration="1000">Get Inspired</h1>
-                    <h2 data-aos="fade" data-aos-duration="1000">& Stay Organized</h2>
-                    <p data-aos="zoom-in-right" data-aos-duration="1000">Read The Home Editors best tips and shop our favorite picks — all in one place!</p>
-                    <a href=""><button data-aos="flip-up" data-aos-duration="1000">READ NOW</button></a>
+                    <h1 data-aos="fade-down" data-aos-duration="1000">How Can We Help? (Ask Away)</h1>
+                    <h2 data-aos="fade" data-aos-duration="1000">Got questions?</h2>
+                    <h2 data-aos="fade" data-aos-duration="1000">Looking for tailored organising solutions?</h2>
+                    <h2 data-aos="fade" data-aos-duration="1000">We'd love to hear from you!</h2>
+                    <p data-aos="fade" data-aos-duration="1000">Fill out the form below, and we'll get back to you
+                        shortly.</p>
+                    <div class="contact-form">
+                        <form action="">
+                            <span>Name:</span>
+                            <input type="text" name="Name" placeholder="Enter your full name here" required>
+                            <span>Email:</span>
+                            <input type="email" name="Email" placeholder="Provide a valid email for us to connect"
+                                required>
+                            <span>City:</span>
+                            <input type="text" name="City" placeholder="Mention your current location" required>
+                            <span>Number:</span>
+                            <input type="number" name="Contact No." placeholder="Contact number for easy communication"
+                                required>
+                            <button type="submit">SUBMIT</button>
+                        </form>
+                    </div>
                 </div>
                 <!-- Image -->
                 <div class="banner-image">
@@ -295,41 +423,49 @@
                     </div>
                 </div>
             </div>
+            <img src="assets/images/icons/4.jpg" alt="image" id="icon-6">
         </div>
-     </section>
+    </section>
     <!-- Banner 8 Ends Here -->
 
 
     <!-- Footer Starts Here -->
-     <footer>
+    <footer>
         <div class="foot-content">
             <div class="footer-top">
                 <div class="footer-menu">
                     <ul>
-                        <li>HOME</li>
-                        <li>SHOP</li>
-                        <li>SERVICES</li>
-                        <li>CONTACT</li>
-                        <li>FAQ</li>
+                        <li><a href="#our-story">Our Story</a></li>
+                        <li><a href="#who-we-are">Who We Are</a></li>
+                        <li><a href="#our-services">Our Services</a></li>
+                        <li><a href="">Our Blogs</a></li>
+                        <li><a href="#contact">Get Enquiry</a></li>
                     </ul>
                 </div>
                 <div class="footer-icon">
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-linkedin"></i>
-                    <i class="fa-brands fa-x-twitter"></i>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>© copyright 2024 The Home Edit. All rights reserved.</p>
+                <p>© Copyright 2024 The Home Edit. All rights reserved.</p>
             </div>
         </div>
-     </footer>
+    </footer>
     <!-- Footer Ends Here -->
+
+    <!-- Back to Top -->
+    <div class="back-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
 
     <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
 
     <!-- Bootstrap JS Link -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <!-- AOS Animation JS Link -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
@@ -338,5 +474,6 @@
     <!-- JS Link -->
     <script src="assets/js/script.js"></script>
 
-  </body>
+</body>
+
 </html>
