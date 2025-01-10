@@ -324,6 +324,9 @@ nav {
     width: 100%;
     margin-top: 0.5rem;
   }
+  #web-screen-banner{
+    display: none;
+  }
   .banner .banner-image .img-div {
     justify-content: center;
   }
@@ -331,13 +334,23 @@ nav {
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 12px;
   }
+  #mobile-screen-banner img{
+    margin-bottom: 1.5rem;
+  }
   .banner .banner-image video {
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 12px;
   }
   
   .banner #icon-1 {
-    width: 100px;
+    width: 140px;
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #mobile-screen-banner{
+    display: none;
   }
 }
 /* Banner 1 Ends Here */
@@ -431,7 +444,7 @@ nav {
     font-size: 0.75rem;
   }
   .banner #icon-2 {
-    width: 80px;
+    width: 100px;
   }
 }
 /* Banner 2 Ends Here */
@@ -496,7 +509,7 @@ nav {
     margin-top: 1.5rem;
   }
   .banner #icon-3 {
-    width: 250px;
+    width: 320px;
   }
 }
 /* Banner 3 Ends Here */
@@ -606,7 +619,8 @@ nav {
     margin-bottom: 0.5rem;
   }
   .banner #icon-4 {
-    width: 85px;
+    width: 100px;
+    right: 0.7rem;
   }
 }
 /* Banner 4 Ends Here */
@@ -719,7 +733,8 @@ nav {
     margin-top: 0.3rem;
   }
   .banner #icon-5 {
-    width: 60px;
+    width: 80px;
+    right: 0;
   }
 }
 /* Banner 5 Ends Here */
@@ -1061,7 +1076,7 @@ font-size: 0.8rem;
     margin-top: 1rem;
 }
   .banner #icon-6 {
-    width: 120px;
+    width: 130px;
   }
 }
 /* Banner 8 Ends Here */
