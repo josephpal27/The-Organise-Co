@@ -10,6 +10,31 @@ document.addEventListener('click', function (event) {
         new bootstrap.Collapse(navbar).hide();
     }
 });
+
+
+// -------------------------------------------------------------------------------------------------------------------------------------------
+// Functionlity For Navbar Slide Down While Scrolling
+
+// document.addEventListener("DOMContentLoaded", () => {
+//     const navbar = document.querySelector(".navbar");
+//     let lastScrollY = window.scrollY;
+  
+//     window.addEventListener("scroll", () => {
+//       const currentScrollY = window.scrollY;
+  
+//       // If scrolling down and past 50px, hide navbar
+//       if (currentScrollY > lastScrollY && currentScrollY > 50) {
+//         navbar.classList.add("hidden");
+//       } else {
+//         // If scrolling up, show navbar
+//         navbar.classList.remove("hidden");
+//       }
+  
+//       // Update the last scroll position
+//       lastScrollY = currentScrollY;
+//     });
+//   });
+  
 // -------------------------------------------------------------------------------------------------------------------------------------------
 
 

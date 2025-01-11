@@ -147,6 +147,18 @@ nav {
   margin-right: 0.3rem;
 }
 
+/* .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar.hidden {
+  transform: translateY(-100%);
+} */
+
 @media screen and (max-width: 1450px) {
   nav {
     padding: 0.5rem 2rem !important;
