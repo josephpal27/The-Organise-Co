@@ -7,97 +7,6 @@
 }
 
 /* Nav Section Starts Here */
-/* nav {
-  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
-}
-.nav-content {
-  background-color: #fff(222, 222, 222);
-  padding: 1rem 0 0 0;
-  max-width: 1500px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  overflow: hidden;
-}
-.nav-content ul {
-  display: flex;
-  align-items: center;
-  list-style-type: none;
-  gap: 2rem;
-}
-.nav-content ul a {
-  text-decoration: none;
-  color: #000;
-  font-weight: 700;
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.9rem;
-  transition: all 0.1s ease;
-}
-.nav-content ul a:hover{
-  border-bottom: 3px solid #303030;
-  padding-bottom: 0.2rem;
-}
-.nav-content .nav-left {
-  width: 25%;
-}
-.nav-content .nav-left img {
-  width: 70px;
-  height: 70px;
-  object-fit: contain;
-}
-.nav-content .nav-left h4 {
-  font-size: 1.6rem;
-  font-family: "Montserrat", sans-serif;
-}
-
-.nav-content .nav-center {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-}
-
-.nav-content .nav-right {
-  width: 25%;
-  display: flex;
-  justify-content: center;
-}
-.nav-content .nav-right i {
-  font-size: 1.3rem;
-  cursor: pointer;
-}
-
-.nav-search {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 0;
-  overflow: hidden;
-  transition: all 0.3s ease-in-out;
-}
-.nav-search form {
-  position: relative;
-}
-.nav-search input {
-  width: 30vw;
-  border: none;
-  outline: 2px solid #000;
-  padding: 1rem 1rem;
-  margin-bottom: 0.3rem;
-}
-.nav-search #search-btn {
-  border: none;
-  outline: none;
-  background-color: transparent;
-  position: absolute;
-  right: 1rem;
-  top: 25%;
-}
-.nav-search .fa-xmark {
-  margin-left: 0.8rem;
-  font-size: 1.2rem;
-  cursor: pointer;
-} */
 nav {
   padding: 0.5rem 0 !important;
   font-family: "Montserrat", sans-serif !important;
@@ -140,7 +49,6 @@ nav {
   transition: all 0.1s ease-in-out;
 }
 .navbar .contact-btn:hover {
-  /* transform: translateY(-2px); */
   scale: 1.03;
 }
 .navbar .contact-btn i {
@@ -192,8 +100,6 @@ nav {
 @media screen and (max-width: 768px) {
   nav {
     padding: 0.5rem 0 !important;
-    /* position: sticky !important;
-    top: 0; */
   }
   .navbar-nav .nav-link{
     font-size: 0.8rem;
@@ -209,7 +115,6 @@ nav {
   padding: 3rem 0;
   max-width: 1300px;
   margin: 0 auto;
-  /* overflow: hidden; */
   border-bottom: 1px solid #000;
   position: relative;
 }
@@ -236,7 +141,6 @@ nav {
   font-size: 1.1rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  /* margin-top: 1.5rem; */
 }
 .banner .banner-text h3 {
   font-size: 1.7rem;
