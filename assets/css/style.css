@@ -158,6 +158,9 @@ nav {
 .banner .banner-image {
   width: 49%;
 }
+#banner-1 .banner-image {
+  width: 40%;
+}
 .banner .banner-image .img-div {
   width: 100%;
   display: flex;
@@ -239,6 +242,9 @@ nav {
   .banner .banner-image {
     width: 100%;
     margin-top: 0.5rem;
+  }
+  #banner-1 .banner-image {
+    width: 100%;
   }
   #web-screen-banner{
     display: none;
@@ -1181,3 +1187,74 @@ footer{
   }
 }
 /* Back to Top Section End*/
+
+
+/* Before After Image Slider Starts Here */
+#before-after-slider {
+  width:100%;
+  position:relative;
+  border-radius: 10px;
+}
+
+#before-after-slider img {
+  width: 100%;
+  display:block;
+  user-select: none;
+}
+
+#after-image {
+  display:block
+}
+
+#before-image {
+  position:absolute;
+  height:100%;
+  width:50%;
+  top:0;
+  left:0;
+  overflow:hidden;
+  z-index:2;
+  border-radius: 10px;
+}
+
+#resizer {
+  position:absolute;
+  display:flex;
+  align-items:center;
+  z-index:5;
+  top:0;
+  left:50%;
+  height:100%;
+  width:4px;
+  background:white;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+}
+
+#resizer:after {
+  background: #d13a5e;
+  font-family: "Font Awesome 5 Free";
+  content:'\f337';
+  font-weight:900;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  position:absolute;
+  margin: 0 0 0 -18px;
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  border:3px solid white;
+}
+
+@media screen and (max-width: 768px) {
+  #resizer:after {
+    margin: 0 0 0 -15.2px;
+    width:33px;
+    height:33px;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+}
+/* Before After Image Slider Ends Here */
