@@ -147,3 +147,108 @@ sliders.forEach((slider) => {
     resizer.style.left = `${transform}px`;
   }
 });
+
+
+// --------------------------------------------------------------------------------------------------------------------------------------------
+
+// Functionality For Rearrage Section
+
+if (window.innerWidth > 1450) {
+gsap.to(".rearrange-left img", {
+
+  scrollTrigger: {
+      trigger: ".rearrange",
+      scroller: 'body',
+      markers: false,
+      start: "top 80%",
+      end: "top 0%",
+      scrub: 2,
+  },
+
+  left: "calc(50% - 17.5%)",
+  duration: 1,
+})
+}
+
+if (window.innerWidth > 1450) {
+gsap.to(".rearrange-right img", {
+
+  scrollTrigger: {
+      trigger: ".rearrange",
+      scroller: 'body',
+      markers: false,
+      start: "top 80%",
+      end: "top 0",
+      scrub: 2,
+  },
+
+  right: "calc(50% - 17.5%)",
+  duration: 1,
+})
+}
+
+if (window.innerWidth <= 1450) {
+  gsap.to(".rearrange-left img", {
+
+    scrollTrigger: {
+        trigger: ".rearrange",
+        scroller: 'body',
+        markers: false,
+        start: "top 80%",
+        end: "top 0%",
+        scrub: 2,
+    },
+  
+    left: "calc(50% - 15.5%)",
+    duration: 1,
+  })
+}
+if (window.innerWidth <= 1450) {
+  gsap.to(".rearrange-right img", {
+
+    scrollTrigger: {
+        trigger: ".rearrange",
+        scroller: 'body',
+        markers: false,
+        start: "top 80%",
+        end: "top 0%",
+        scrub: 2,
+    },
+  
+    right: "calc(50% - 15.5%)",
+    duration: 1,
+  })
+}
+
+if (window.innerWidth <= 768) {
+  gsap.to(".rearrange-left img", {
+
+    scrollTrigger: {
+        trigger: ".rearrange",
+        scroller: 'body',
+        markers: false,
+        start: "top 80%",
+        end: "top 10%",
+        scrub: 2,
+    },
+  
+    left: "calc(50% - 20%)",
+    duration: 1,
+  })
+}
+if (window.innerWidth <= 1450) {
+  gsap.to(".rearrange-right img", {
+
+    scrollTrigger: {
+        trigger: ".rearrange",
+        scroller: 'body',
+        markers: false,
+        start: "top 80%",
+        end: "top 10%",
+        scrub: 2,
+    },
+  
+    right: "calc(50% - 20%)",
+    duration: 1,
+  })
+}
