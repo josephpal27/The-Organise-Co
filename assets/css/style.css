@@ -511,7 +511,7 @@ nav {
   margin-bottom: 2rem;
 }
 #banner-4 .banner {
-  padding-bottom: 8rem;
+  padding-bottom: 4rem;
 }
 #banner-4 .banner .banner-text h1 {
   font-size: 3.5rem;
@@ -532,10 +532,11 @@ nav {
   margin-bottom: 1rem;
 }
 .banner #icon-4 {
-  width: 160px;
+  width: 240px;
   position: absolute;
   bottom: 0;
   /* right: 2rem; */
+  left: 30%;
 }
 
 @media screen and (max-width: 1450px) {
@@ -544,7 +545,7 @@ nav {
     margin-bottom: 1.5rem;
   }
   #banner-4 .banner {
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
   }
   #banner-4 .banner .banner-text h1 {
     font-size: 2.3rem;
@@ -562,7 +563,7 @@ nav {
     margin-bottom: 0.7rem;
   }
   .banner #icon-4 {
-    width: 150px;
+    width: 180px;
   }
 }
 
@@ -576,7 +577,7 @@ nav {
     margin-bottom: 0.4rem;
   }
   #banner-4 .banner {
-    padding-bottom: 4rem;
+    padding-bottom: 1rem;
   }
   #banner-4 .banner .banner-content{
     flex-direction: column-reverse;
@@ -602,8 +603,8 @@ nav {
     margin-bottom: 0.5rem;
   }
   .banner #icon-4 {
-    width: 100px;
-    right: 0.7rem;
+    width: 30%;
+    left: 35%;
   }
 }
 /* Banner 4 Ends Here */
@@ -758,6 +759,9 @@ nav {
   #banner-6 .banner .banner-head .line {
     width: 1.8rem;
     margin-bottom: 0.4rem;
+  }
+  #banner-6 .banner {
+    padding-bottom: 7rem;
   }
   #banner-6 .banner .banner-text h1 {
     font-size: 1.1rem;
