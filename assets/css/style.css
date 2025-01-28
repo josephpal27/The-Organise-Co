@@ -563,7 +563,7 @@ nav {
     margin-bottom: 0.7rem;
   }
   .banner #icon-4 {
-    width: 180px;
+    width: 165px;
   }
 }
 
@@ -751,6 +751,29 @@ nav {
   font-weight: 700;
 }
 
+@media screen and (max-width: 1450px) {
+  #banner-6 .banner {
+    padding: 2rem 0 2.7rem 0 !important;
+  }
+  #banner-6 .banner .banner-head h5 {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  #banner-6 .banner {
+    padding-bottom: 7rem;
+  }
+  #banner-6 .banner .banner-text h1 {
+    font-size: 1.8rem;
+  }
+  #banner-6 .banner .banner-text h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  #banner-6 .banner .banner-text p {
+    margin-top: 0.5rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   #banner-6 .banner .banner-head h5 {
     font-size: 0.8rem;
@@ -761,7 +784,7 @@ nav {
     margin-bottom: 0.4rem;
   }
   #banner-6 .banner {
-    padding-bottom: 7rem;
+    padding: 2rem 0.7rem 7rem 0.7rem !important;
   }
   #banner-6 .banner .banner-text h1 {
     font-size: 1.1rem;
@@ -776,6 +799,229 @@ nav {
   }
 }
 /* Banner 6 Ends Here */
+
+/* Clients Say Start Here */
+.client-say{
+  padding: 7rem 0 8rem 0;
+}
+.client-say-pill{
+  width: 85%;
+  margin: 0 auto;
+  border: 1.8px solid #000000;
+  padding: 3rem 2.5rem;
+  border-radius: 300px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 7px 10px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.client-say-pill .client-head{
+  position: absolute;
+  top: -1.6rem;
+  width: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background-color: #fff;
+}
+.client-say-pill .client-head h1{
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+}
+.client-say-pill .carousel-inner{
+  width: 75%;
+  margin: 0 auto;
+  padding: 3rem 0;
+  text-align: center;
+}
+.client-say-pill .carousel-inner .carousel-item{
+  padding: 0 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+.client-say-pill .carousel-inner .carousel-item h5{
+  font-size: 1.15rem;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
+.client-say-pill .carousel-inner .carousel-item p{
+  font-size: 1rem;
+  margin: 0;
+  margin-top: 1.5rem;
+  font-weight: 600;
+}
+.client-say-pill .client-icons img{
+  position: absolute;
+}
+.client-say-pill .client-icons #client-icon-1{
+  top: -2rem;
+  right: calc(25% - 1.5rem);
+  transform: rotate(-20deg);
+  width: 60px;
+}
+.client-say-pill .client-icons #client-icon-2{
+  top: calc(50% - 1.5rem);
+  left: -2.5rem;
+  transform: rotate(30deg);
+  width: 100px;
+}
+.client-say-pill .client-icons #client-icon-3{
+  bottom: -2rem;
+  left: calc(12% - 1.5rem);
+  transform: rotate(30deg);
+  width: 50px;
+}
+.client-say-pill .client-icons #client-icon-4{
+  bottom: -3.5rem;
+  left: calc(33% - 1.5rem);
+  width: 130px;
+}
+.client-say-pill .client-icons #client-icon-5{
+  bottom: -1rem;
+  right: calc(5% - 1.5rem);
+  width: 125px;
+}
+.client-say-pill .client-icons #client-icon-6{
+  top: calc(36% - 1.5rem);
+  right: calc(-2% - 1.5rem);
+  width: 130px;
+  transform: rotate(-20deg);
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 60px;
+  height: 60px; 
+  background-color: #c53e5f;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out;
+}
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  background-color: #ffb5c890;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  filter: invert(1);
+  width: 40px;
+  height: 40px;
+}
+.carousel-control-prev {
+  top: calc(50% - 30px);
+  left: 55px;
+}
+.carousel-control-next {
+  top: calc(50% - 30px);
+  right: 55px;
+}
+
+
+@media screen and (max-width: 1450px) {
+  .client-say{
+    padding: 5rem 0 6rem 0;
+  }
+  .client-say-pill{
+    border: 1.5px solid #000000;
+    padding: 2rem 2.5rem;
+  }
+  .client-say-pill .client-head{
+    top: -1.3rem;
+    width: 24%;
+  }
+  .client-say-pill .client-head h1{
+    font-size: 2rem;
+  }
+  .client-say-pill .carousel-inner .carousel-item h5{
+    font-size: 0.96rem;
+  }
+  .client-say-pill .carousel-inner .carousel-item p{
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+  .client-say-pill .client-icons #client-icon-1{
+    top: -1.5rem;
+    width: 45px;
+  }
+  .client-say-pill .client-icons #client-icon-2{
+    left: -2rem;
+    width: 80px;
+  }
+  .client-say-pill .client-icons #client-icon-3{
+    bottom: -1.2rem;
+    width: 43px;
+  }
+  .client-say-pill .client-icons #client-icon-4{
+    bottom: -2.8rem;
+    width: 95px;
+  }
+  .client-say-pill .client-icons #client-icon-5{
+    right: calc(10% - 1.5rem);
+    width: 95px;
+  }
+  .client-say-pill .client-icons #client-icon-6{
+    right: calc(-0.5% - 1.5rem);
+    width: 80px;
+  }
+  .carousel-control-prev, .carousel-control-next {
+    width: 55px;
+    height: 55px; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .client-say{
+    padding: 3rem 0.7rem 3.5rem 0.7rem;
+  }
+  .client-say-pill{
+    width: 100%;
+    padding: 1.5rem 0.5rem;
+    border-radius: 20px;
+  }
+  .client-say-pill .client-head{
+    top: -0.9rem;
+    width: 45%;
+  }
+  .client-say-pill .client-head h1{
+    font-size: 1.4rem;
+  }
+  .client-say-pill .carousel-inner{
+    width: 95%;
+    padding: 0 0 2rem 0;
+  }
+  .client-say-pill .carousel-inner .carousel-item{
+    padding: 0 1rem;
+  }
+  .client-say-pill .carousel-inner .carousel-item h5{
+    font-size: 0.9rem;
+  }
+  .client-say-pill .carousel-inner .carousel-item p{
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
+  .client-say-pill .client-icons #client-icon-1{
+    right: calc(20% - 1.5rem);
+    top: -1rem;
+    width: 25px;
+  }
+  .client-say-pill .client-icons #client-icon-2{
+    left: -1.5rem;
+    width: 55px;
+  }
+  .client-say-pill .client-icons #client-icon-3{
+    width: 30px;
+  }
+  .client-say-pill .client-icons #client-icon-4{
+    bottom: -1.9rem;
+    width: 65px;
+  }
+  .client-say-pill .client-icons #client-icon-5{
+    width: 60px;
+  }
+  .client-say-pill .client-icons #client-icon-6{
+    right: calc(2% - 1.5rem);
+    width: 40px;
+  }
+
+  .carousel-control-prev, .carousel-control-next {
+    display: none;
+  }
+}
+/* Clients Say End Here */
 
 /* Banner 7 Starts Here */
 #banner-7 .banner .banner-head .line {
@@ -859,6 +1105,13 @@ nav {
 }
 .carousel button:hover{
   color: #000;
+}
+
+.carousel .carousel-control-prev {
+  left: 30px;
+}
+.carousel .carousel-control-next {
+  right: 30px;
 }
 
 @media screen and (max-width: 1450px) {
