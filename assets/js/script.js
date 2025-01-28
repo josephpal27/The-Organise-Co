@@ -153,102 +153,150 @@ sliders.forEach((slider) => {
 
 // Functionality For Rearrage Section
 
-if (window.innerWidth > 1450) {
-gsap.to(".rearrange-left img", {
+// if (window.innerWidth > 1450) {
+// gsap.to(".rearrange-left img", {
 
-  scrollTrigger: {
+//   scrollTrigger: {
+//       trigger: ".rearrange",
+//       scroller: 'body',
+//       markers: false,
+//       start: "top 80%",
+//       end: "top 0%",
+//       scrub: 2,
+//   },
+
+//   left: "calc(50% - 17.5%)",
+//   duration: 1,
+// })
+// }
+
+// if (window.innerWidth > 1450) {
+// gsap.to(".rearrange-right img", {
+
+//   scrollTrigger: {
+//       trigger: ".rearrange",
+//       scroller: 'body',
+//       markers: false,
+//       start: "top 80%",
+//       end: "top 0",
+//       scrub: 2,
+//   },
+
+//   right: "calc(50% - 17.5%)",
+//   duration: 1,
+// })
+// }
+
+// if (window.innerWidth <= 1450) {
+//   gsap.to(".rearrange-left img", {
+
+//     scrollTrigger: {
+//         trigger: ".rearrange",
+//         scroller: 'body',
+//         markers: false,
+//         start: "top 80%",
+//         end: "top 0%",
+//         scrub: 2,
+//     },
+  
+//     left: "calc(50% - 15.5%)",
+//     duration: 1,
+//   })
+// }
+// if (window.innerWidth <= 1450) {
+//   gsap.to(".rearrange-right img", {
+
+//     scrollTrigger: {
+//         trigger: ".rearrange",
+//         scroller: 'body',
+//         markers: false,
+//         start: "top 80%",
+//         end: "top 0%",
+//         scrub: 2,
+//     },
+  
+//     right: "calc(50% - 15.5%)",
+//     duration: 1,
+//   })
+// }
+
+// if (window.innerWidth <= 768) {
+//   gsap.to(".rearrange-left img", {
+
+//     scrollTrigger: {
+//         trigger: ".rearrange",
+//         scroller: 'body',
+//         markers: false,
+//         start: "top 80%",
+//         end: "top 10%",
+//         scrub: 2,
+//     },
+  
+//     left: "calc(50% - 20%)",
+//     duration: 1,
+//   })
+// }
+// if (window.innerWidth <= 1450) {
+//   gsap.to(".rearrange-right img", {
+
+//     scrollTrigger: {
+//         trigger: ".rearrange",
+//         scroller: 'body',
+//         markers: false,
+//         start: "top 80%",
+//         end: "top 10%",
+//         scrub: 2,
+//     },
+  
+//     right: "calc(50% - 20%)",
+//     duration: 1,
+//   })
+// }
+
+
+const updateAnimation = () => {
+  let leftValue, rightValue;
+
+  if (window.innerWidth > 1450) {
+    leftValue = "calc(50% - 17.5%)";
+    rightValue = "calc(50% - 17.5%)";
+  } else if (window.innerWidth <= 768) {
+    leftValue = "calc(50% - 20%)";
+    rightValue = "calc(50% - 20%)";
+  } else {
+    leftValue = "calc(50% - 15.5%)";
+    rightValue = "calc(50% - 15.5%)";
+  }
+
+  gsap.to(".rearrange-left img", {
+    scrollTrigger: {
       trigger: ".rearrange",
-      scroller: 'body',
+      scroller: "body",
       markers: false,
       start: "top 80%",
-      end: "top 0%",
+      end: window.innerWidth <= 768 ? "top 10%" : "top 0%",
       scrub: 2,
-  },
+    },
+    left: leftValue,
+    duration: 1,
+  });
 
-  left: "calc(50% - 17.5%)",
-  duration: 1,
-})
-}
-
-if (window.innerWidth > 1450) {
-gsap.to(".rearrange-right img", {
-
-  scrollTrigger: {
+  gsap.to(".rearrange-right img", {
+    scrollTrigger: {
       trigger: ".rearrange",
-      scroller: 'body',
+      scroller: "body",
       markers: false,
       start: "top 80%",
-      end: "top 0",
+      end: window.innerWidth <= 768 ? "top 10%" : "top 0%",
       scrub: 2,
-  },
-
-  right: "calc(50% - 17.5%)",
-  duration: 1,
-})
-}
-
-if (window.innerWidth <= 1450) {
-  gsap.to(".rearrange-left img", {
-
-    scrollTrigger: {
-        trigger: ".rearrange",
-        scroller: 'body',
-        markers: false,
-        start: "top 80%",
-        end: "top 0%",
-        scrub: 2,
     },
-  
-    left: "calc(50% - 15.5%)",
+    right: rightValue,
     duration: 1,
-  })
-}
-if (window.innerWidth <= 1450) {
-  gsap.to(".rearrange-right img", {
+  });
+};
 
-    scrollTrigger: {
-        trigger: ".rearrange",
-        scroller: 'body',
-        markers: false,
-        start: "top 80%",
-        end: "top 0%",
-        scrub: 2,
-    },
-  
-    right: "calc(50% - 15.5%)",
-    duration: 1,
-  })
-}
+// Run on page load
+updateAnimation();
 
-if (window.innerWidth <= 768) {
-  gsap.to(".rearrange-left img", {
-
-    scrollTrigger: {
-        trigger: ".rearrange",
-        scroller: 'body',
-        markers: false,
-        start: "top 80%",
-        end: "top 10%",
-        scrub: 2,
-    },
-  
-    left: "calc(50% - 20%)",
-    duration: 1,
-  })
-}
-if (window.innerWidth <= 1450) {
-  gsap.to(".rearrange-right img", {
-
-    scrollTrigger: {
-        trigger: ".rearrange",
-        scroller: 'body',
-        markers: false,
-        start: "top 80%",
-        end: "top 10%",
-        scrub: 2,
-    },
-  
-    right: "calc(50% - 20%)",
-    duration: 1,
-  })
-}
+// Re-run on window resize
+window.addEventListener("resize", updateAnimation);
