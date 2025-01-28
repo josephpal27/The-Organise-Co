@@ -69,7 +69,7 @@ nav {
 
 @media screen and (max-width: 1450px) {
   nav {
-    padding: 0.5rem 2rem !important;
+    padding: 0.5rem 5rem !important;
   }
   nav img{
     width: 110px;
@@ -187,7 +187,7 @@ nav {
 
 @media screen and (max-width: 1450px) {
   .banner {
-    max-width: 90%;
+    max-width: 85%;
   }
   .banner .banner-text p {
     font-size: 0.9rem;
@@ -680,6 +680,9 @@ nav {
   #banner-5 .banner .banner-text ol li p{
     font-size: 0.9rem;
     margin-top: 0.5rem;
+  }
+  .banner #icon-5 {
+    width: 70px;
   }
 }
 @media screen and (max-width: 768px) {
