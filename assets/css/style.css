@@ -1052,6 +1052,7 @@ nav {
 .carousel .slide {
   min-width: 100%;
   display: flex;
+  padding: 5rem 0;
 }
 .carousel .text {
   width: 50%;
@@ -1070,7 +1071,7 @@ nav {
   font-weight: 500;
   margin-top: 1rem;
   font-family: "Montserrat", sans-serif;
-  max-width: 70%;
+  max-width: 80%;
   text-align: center;
 }
 .carousel .text h5{
@@ -1121,6 +1122,9 @@ nav {
   #banner-7 .banner .banner-head h5 {
     font-size: 1rem;
     margin-bottom: 1.5rem;
+  }
+  .carousel .slide {
+    padding: 3rem 0;
   }
   .carousel .text h2{
     font-size: 1.1rem;
